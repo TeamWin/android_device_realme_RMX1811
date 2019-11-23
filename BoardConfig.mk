@@ -41,8 +41,6 @@ TARGET_NO_BOOTLOADER := true
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
 
-
-
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 androidboot.selinux=permissive
